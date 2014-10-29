@@ -389,7 +389,7 @@ void setup()
     // --- electrical motor operation
     // ----------------------------------------------------------------
     rta::herc.setReverseMotorLeft(  false ); // left  motor is normal
-    rta::herc.setReverseMotorRight( true  ); // right motor is reversed
+    rta::herc.setReverseMotorRight( false  ); // right motor is reversed
 
 #else
 
@@ -397,7 +397,7 @@ void setup()
 
     // --- electrical motor operation
     // ----------------------------------------------------------------
-    rta::dHerc.setReverseMotorLeft(  true ); // left  motor is normal
+    rta::dHerc.setReverseMotorLeft(  false ); // left  motor is normal
     rta::dHerc.setReverseMotorRight( false  ); // right motor is reversed
 
 #endif
