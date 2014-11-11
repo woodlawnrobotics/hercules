@@ -170,7 +170,7 @@ typedef enum WRT_IR_ENUM_tag
 	wrt_code_motor_speed_hercules_medium		 = 50,	// medium  for PWM
 	wrt_code_motor_speed_hercules_low			 = 20,	// low for PWM
 	wrt_code_motor_speed_hercules_min  			 = 10,	//     max for PWM
-	wrt_code_motor_speed_hercules_max  			 = 80,	//     max for PWM
+	wrt_code_motor_speed_hercules_max  			 = 50,	//     max for PWM
 	wrt_code_motor_speed_hercules_dMax  		 = 100,	//     max for PWM
 
 	// --- motor direction codes:

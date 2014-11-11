@@ -25,6 +25,7 @@
 
 #include <RTHerculesRobot.h>
 #include <RTHerculesDrive.h>
+//#include <RTHerculesEncoder.h>
 
 #if defined( RT_TEST_HERCULES )
 #undef RT_TEST_HERCULES
